@@ -30,7 +30,7 @@ public class CI_Starter_Test {
 				.xpath("/html/body/div[1]/div[2]/div[1]/div[1]/div[3]/div/div/div/form/fieldset[2]/div/div/div/div/div[3]/div/input[1]"));
 
 		// click to the link
-		about.sendKeys("vinithra");
+		about.sendKeys("Testing");
 		// wait for 5 seconds
 		Thread.sleep(5000);
 	
@@ -42,7 +42,7 @@ public class CI_Starter_Test {
 		// wait for 5 seconds
 		Thread.sleep(5000);
 		
-		WebElement link = driver.findElement(By.linkText("Vinithra S P - India | LinkedIn"));
+		WebElement link = driver.findElement(By.linkText("Black-box testing - Wikipedia, the free encyclopedia"));
 		// write out the title of the page in console
 		System.out.println(driver.getTitle());
 		
