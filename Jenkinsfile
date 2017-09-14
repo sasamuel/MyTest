@@ -1,10 +1,12 @@
+pipeline {
+    agent any 
 
-pipeline{
-  stages{
-    agent any
-    
-    stage("Checkout"){
-      echo "Hi There"
+    stages {
+        stage('Build') { 
+            steps { 
+                echo 'Hi' 
+            }
+        }
     }
-  }
 }
+
